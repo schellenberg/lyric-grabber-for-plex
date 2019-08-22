@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+glob2 = "*"
+requests = "*"
+mutagen = "*"
+beautifulsoup4 = "*"
+win-unicode-console = "*"
+appdirs = "*"
+
+[requires]
+python_version = "3.7"
