@@ -15,10 +15,10 @@ from mutagen import MutagenError
 from bs4 import BeautifulSoup
 
 # Import all the sources modules
-from .lyrico_sources.lyric_wikia import download_from_lyric_wikia
-from .lyrico_sources.az_lyrics import download_from_az_lyrics
-from .lyrico_sources.musix_match import download_from_musix_match
-from .lyrico_sources.lyricsmode import download_from_lyricsmode
+from .lyric_wikia import download_from_lyric_wikia
+from .az_lyrics import download_from_az_lyrics
+from .musix_match import download_from_musix_match
+from .lyricsmode import download_from_lyricsmode
 
 from .song_helper import get_song_data, get_song_list
 from .config import Config

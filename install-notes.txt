@@ -1,0 +1,7 @@
+pipenv install
+pipenv install .
+
+pipenv shell
+lyrico set source_dir "some/path/here"
+lyrico set lyrics_dir "PLEX-MODE"
+

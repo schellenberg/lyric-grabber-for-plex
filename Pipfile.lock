@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0304b913b39661a8fb90a1b7a38086f1d486dbd3873083b5336752a96adee799"
+            "sha256": "97ff25f61b0a3e7e85c9b659e4cae92c59966d7837ab2f8b5c33768e534043a4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -60,6 +60,9 @@
                 "sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"
             ],
             "version": "==2.8"
+        },
+        "lyrico": {
+            "path": "."
         },
         "mutagen": {
             "hashes": [

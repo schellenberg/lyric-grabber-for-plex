@@ -12,6 +12,8 @@ mutagen = "*"
 beautifulsoup4 = "*"
 win-unicode-console = "*"
 appdirs = "*"
+lyrico = {path = "."}
+gooey = "*"
 
 [requires]
 python_version = "3.7"
