@@ -1,26 +1,15 @@
 				lyrico
 
-Log Date 16:16:24  22/08/19
+Log Date 08:33:51  24/08/19
 
-Audio files detected: 12
-Metadata extracted for: 12
-Lyrics files saved: 12
+Audio files detected: 1
+Metadata extracted for: 1
+Lyrics files saved: 1
 Tags saved: 0
 
   	[FILE]	[TAG]	[SOURCE]			[ARTIST-TITLE]				[ERROR]
 ====================================================================================================
-1. 	Saved	Ignored	AZLr		The Black Keys - Shine A Little Light		None
-2. 	Saved	Ignored	AZLr		The Black Keys - Eagle Birds		None
-3. 	Saved	Ignored	WIKI		The Black Keys - Lo/Hi		None
-4. 	Saved	Ignored	AZLr		The Black Keys - Walk Across The Water		None
-5. 	Saved	Ignored	AZLr		The Black Keys - Tell Me Lies		None
-6. 	Saved	Ignored	AZLr		The Black Keys - Every Little Thing		None
-7. 	Saved	Ignored	AZLr		The Black Keys - Get Yourself Together		None
-8. 	Saved	Ignored	AZLr		The Black Keys - Sit Around And Miss You		None
-9. 	Saved	Ignored	AZLr		The Black Keys - Go		None
-10. 	Saved	Ignored	AZLr		The Black Keys - Breaking Down		None
-11. 	Saved	Ignored	AZLr		The Black Keys - Under The Gun		None
-12. 	Saved	Ignored	AZLr		The Black Keys - Fire Walk With Me		None
+1. 	Saved	Ignored	WIKI		Adele - Make You Feel My Love		None
 
 
 	**** STATUS KEY ****
