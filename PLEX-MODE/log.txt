@@ -1,15 +1,24 @@
 				lyrico
 
-Log Date 08:33:51  24/08/19
+Log Date 21:49:36  24/08/19
 
-Audio files detected: 1
-Metadata extracted for: 1
-Lyrics files saved: 1
+Audio files detected: 10
+Metadata extracted for: 10
+Lyrics files saved: 10
 Tags saved: 0
 
   	[FILE]	[TAG]	[SOURCE]			[ARTIST-TITLE]				[ERROR]
 ====================================================================================================
-1. 	Saved	Ignored	WIKI		Adele - Make You Feel My Love		None
+1. 	Saved	Ignored	WIKI		Allman Brown - Fires		None
+2. 	Saved	Ignored	WIKI		Allman Brown - Ancient Light		None
+3. 	Saved	Ignored	WIKI		Allman Brown - Sweetest Thing		None
+4. 	Saved	Ignored	WIKI		Allman Brown - Foolish Love		None
+5. 	Saved	Ignored	WIKI		Allman Brown - Palms		None
+6. 	Saved	Ignored	WIKI		Allman Brown - Shape of You		None
+7. 	Saved	Ignored	WIKI		Allman Brown - Rivers		None
+8. 	Saved	Ignored	AZLr		Allman Brown - Don't Let Me Go		None
+9. 	Saved	Ignored	AZLr		Allman Brown - Last Dance		None
+10. 	Saved	Ignored	AZLr		Allman Brown - Goodbyes		None
 
 
 	**** STATUS KEY ****

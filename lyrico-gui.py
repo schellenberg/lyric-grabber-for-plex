@@ -16,10 +16,9 @@ __version__ = "0.6.0"
 
 #print to debug window
 # print = sg.EasyPrint
-# sg.EasyPrint(do_not_reroute_stdout=False)
+sg.EasyPrint(do_not_reroute_stdout=False)
 
-# music_directory = sg.PopupGetFolder('Select Plex Music Folder to Search', title="Select Folder")
-music_directory = "/Volumes/music/Adele"
+music_directory = sg.PopupGetFolder('Select Plex Music Folder to Search', title="Select Folder")
 
 if music_directory:
 	Config.load_config()
@@ -32,31 +31,10 @@ if music_directory:
 		sg.Popup('Config Error', 'Something is not right. Please check the source directory chosen.')
 
 
-	# 
-	# 
-	
-	layout = [[(sg.Text('This is where standard out is being routed', size=[40, 1]))],
-			[sg.Output(size=(80, 20))]]
-
-	window = sg.Window('Search Results', layout, default_element_size=(30, 2))
-
-	# while True:
-	# 		event, value = window.Read()
-	# 		if event == 'SEND':
-	# 			print(value)
-	# 		else:
-	# 			break
-
-
-	# 
-	# 
-
 	song_list = [Song(song_path) for song_path in get_song_list(Config.source_dir)]
 	print(len(song_list), 'songs detected.')
 	print('Metadata extracted for', (str(Song.valid_metadata_count) + '/' + str(len(song_list))), 'songs.')
-	window.Refresh()
 	for song in song_list:
-		# window.Refresh()
 		# Only download lyrics if 'title' and 'artist' is present
 		# Error str is already present in song.error
 		if song.artist and song.title:
@@ -85,7 +63,7 @@ if music_directory:
 	)
 	print('FINISHED')
 
-	# sg.Popup('All Done!', 'See the debug screen for more details.')
+	sg.Popup('All Done!', 'See the debug screen for more details.')
 else:
 	sg.PopupError("No music directory selected. Quitting without searching.", title="No Directory")
 
