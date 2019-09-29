@@ -1,24 +1,29 @@
 				lyrico
 
-Log Date 21:49:36  24/08/19
+Log Date 21:16:08  28/09/19
 
-Audio files detected: 10
-Metadata extracted for: 10
-Lyrics files saved: 10
+Audio files detected: 15
+Metadata extracted for: 15
+Lyrics files saved: 14
 Tags saved: 0
 
   	[FILE]	[TAG]	[SOURCE]			[ARTIST-TITLE]				[ERROR]
 ====================================================================================================
-1. 	Saved	Ignored	WIKI		Allman Brown - Fires		None
-2. 	Saved	Ignored	WIKI		Allman Brown - Ancient Light		None
-3. 	Saved	Ignored	WIKI		Allman Brown - Sweetest Thing		None
-4. 	Saved	Ignored	WIKI		Allman Brown - Foolish Love		None
-5. 	Saved	Ignored	WIKI		Allman Brown - Palms		None
-6. 	Saved	Ignored	WIKI		Allman Brown - Shape of You		None
-7. 	Saved	Ignored	WIKI		Allman Brown - Rivers		None
-8. 	Saved	Ignored	AZLr		Allman Brown - Don't Let Me Go		None
-9. 	Saved	Ignored	AZLr		Allman Brown - Last Dance		None
-10. 	Saved	Ignored	AZLr		Allman Brown - Goodbyes		None
+1. 	Saved	Ignored	WIKI		10,000 Maniacs - Because The Night		None
+2. 	Saved	Ignored	WIKI		10,000 Maniacs - Candy Everybody Wants		None
+3. 	Saved	Ignored	WIKI		10,000 Maniacs - Don't Talk		None
+4. 	Saved	Ignored	WIKI		10,000 Maniacs - Eat For Two		None
+5. 	Failed	Ignored	None		10,000 Maniacs - Gould Rush Brides		Lyrics not found. Check artist or title name.
+6. 	Saved	Ignored	WIKI		10,000 Maniacs - Hey Jack Kerouac		None
+7. 	Saved	Ignored	WIKI		10,000 Maniacs - I'm Not The Man		None
+8. 	Saved	Ignored	WIKI		10,000 Maniacs - Jezebel		None
+9. 	Saved	Ignored	WIKI		10,000 Maniacs - Like The Weather		None
+10. 	Saved	Ignored	WIKI		10,000 Maniacs - Noah's Dove		None
+11. 	Saved	Ignored	WIKI		10,000 Maniacs - Stockton Gala Days		None
+12. 	Saved	Ignored	WIKI		10,000 Maniacs - These Are The Days		None
+13. 	Saved	Ignored	WIKI		10,000 Maniacs - Trouble Me		None
+14. 	Saved	Ignored	WIKI		10,000 Maniacs - What's The Matter Here		None
+15. 	Saved	Ignored	WIKI		10,000 Maniacs - Peace Train		None
 
 
 	**** STATUS KEY ****

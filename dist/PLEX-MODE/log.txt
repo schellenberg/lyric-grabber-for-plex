@@ -1,0 +1,62 @@
+				lyrico
+
+Log Date 21:31:26  28/09/19
+
+Audio files detected: 25
+Metadata extracted for: 25
+Lyrics files saved: 24
+Tags saved: 0
+
+  	[FILE]	[TAG]	[SOURCE]			[ARTIST-TITLE]				[ERROR]
+====================================================================================================
+1. 	Saved	Ignored	WIKI		Arcade Fire - Creature Comfort		None
+2. 	Saved	Ignored	LrMOD		Arcade Fire - Everything_Now (continued)		None
+3. 	Saved	Ignored	WIKI		Arcade Fire - Signs of Life		None
+4. 	Saved	Ignored	WIKI		Arcade Fire - Creature Comfort		None
+5. 	Saved	Ignored	WIKI		Arcade Fire - Peter Pan		None
+6. 	Saved	Ignored	WIKI		Arcade Fire - Chemistry		None
+7. 	Saved	Ignored	LrMOD		Arcade Fire - Infinite Content		None
+8. 	Saved	Ignored	AZLr		Arcade Fire - Infinite_Content		None
+9. 	Saved	Ignored	WIKI		Arcade Fire - Electric Blue		None
+10. 	Saved	Ignored	WIKI		Arcade Fire - Good God Damn		None
+11. 	Saved	Ignored	WIKI		Arcade Fire - Put Your Money On Me		None
+12. 	Saved	Ignored	WIKI		Arcade Fire - We Don't Deserve Love		None
+13. 	Saved	Ignored	AZLr		Arcade Fire - Everything Now (continued)		None
+14. 	Saved	Ignored	mXm		Arcade Fire - Neighborhood #1 (Tunnels)		None
+15. 	Failed	Ignored	None		Arcade Fire - Neighborhood #2 (Laïka)		Lyrics not found. Check artist or title name.
+16. 	Saved	Ignored	WIKI		Arcade Fire - Une Année Sans Lumiere		None
+17. 	Saved	Ignored	mXm		Arcade Fire - Neighborhood #3 (Power Out)		None
+18. 	Saved	Ignored	mXm		Arcade Fire - Neighborhood #4 (7 Kettles)		None
+19. 	Saved	Ignored	WIKI		Arcade Fire - Crown Of Love		None
+20. 	Saved	Ignored	WIKI		Arcade Fire - Wake Up		None
+21. 	Saved	Ignored	WIKI		Arcade Fire - Haiti		None
+22. 	Saved	Ignored	WIKI		Arcade Fire - Rebellion (Lies)		None
+23. 	Saved	Ignored	WIKI		Arcade Fire - In The Back Seat		None
+24. 	Saved	Ignored	WIKI		Arcade Fire - No Cars Go		None
+25. 	Saved	Ignored	WIKI		Arcade Fire - Everything Now		None
+
+
+	**** STATUS KEY ****
+	# 'Saved' - File or tag was saved successfully.
+	# 'Failed' - Download or save failed. See error.
+	# 'Ignored' - Ignored according to 'save_to_file', 'save_to_tag' setting.
+	# 'Present' - Detected tag or file and skipped download as per 'overwrite' setting.
+
+
+	**** SOURCE KEY  ****
+	# 'WIKI' - Lyric Wikia
+	# 'mXm' - musiXmatch
+	# 'LrMOD' - LYRICSMODE
+	# 'AZLr' - AZLyrics
+
+====================================================================================================
+'lyrico' has been built and is maintained by Abhimanyu Pathania.
+
+If you encounter a bug, please raise an issue on GitHub.
+	https://github.com/abhimanyuPathania/lyrico/issues
+Or you can mail me: abpindia1944@gmail.com
+
+Cheers!
+
+
+
