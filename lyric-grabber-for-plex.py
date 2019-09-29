@@ -20,6 +20,9 @@ from lyrico.song import Song
 from lyrico.song_helper import get_song_list
 from lyrico.config import Config
 
+#try to fix buffering input...
+# nonbuffered_stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
+# sys.stdout = nonbuffered_stdout
 
 @Gooey()
 def main():
@@ -30,6 +33,8 @@ def main():
         metavar='Music Directory',
         help='Select the music directory you want to search',
         widget='DirChooser')
+
+    create_log = False  #replace with an argument to Gooey?
 
     args = parser.parse_args()
 
@@ -70,17 +75,19 @@ def main():
                 else:
                     print(song.path, 'was ignored.', song.error)
 
-        print('\nBuilding log...')
-        Song.log_results(song_list)
-        print(
-            '{songs} songs, {tagged} tagged, {files} lyric files, {existing} existing, {errors} errors'.format(
-                songs = len(song_list),
-                tagged = Song.lyrics_saved_to_tag_count,
-                files = Song.lyrics_saved_to_file_count,
-                existing = Song.lyrics_existing_count,
-                errors = Song.lyrics_errors_count
+        if create_log:
+            print('\nBuilding log...')
+            Song.log_results(song_list)
+            print(
+                '{songs} songs, {tagged} tagged, {files} lyric files, {existing} existing, {errors} errors'.format(
+                    songs = len(song_list),
+                    tagged = Song.lyrics_saved_to_tag_count,
+                    files = Song.lyrics_saved_to_file_count,
+                    existing = Song.lyrics_existing_count,
+                    errors = Song.lyrics_errors_count
+                )
             )
-        )
+
         print('FINISHED')
 
     else:

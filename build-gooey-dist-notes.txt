@@ -1,0 +1,2 @@
+pipenv install
+pipenv run pyinstaller -F --windowed build.spec

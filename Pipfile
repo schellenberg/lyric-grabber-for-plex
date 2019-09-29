@@ -14,8 +14,6 @@ win-unicode-console = "*"
 appdirs = "*"
 lyrico = {path = "."}
 gooey = "*"
-pysimpleguiqt = "*"
-pyqt5 = "*"
 pyinstaller = "*"
 
 [requires]

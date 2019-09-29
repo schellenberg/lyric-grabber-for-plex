@@ -1,0 +1,3 @@
+([('Lyric Grabber for Plex',
+   '/Users/dan/Documents/GitHub/plex-lyric-grabber/dist/Lyric Grabber for Plex',
+   'EXECUTABLE')],)
