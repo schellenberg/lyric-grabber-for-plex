@@ -13,11 +13,10 @@ beautifulsoup4 = "*"
 win-unicode-console = "*"
 appdirs = "*"
 lyrico = {path = "."}
+gooey = "*"
 pysimpleguiqt = "*"
-pyside2 = "*"
-pysimplegui = "*"
-pysimpleguiwx = "*"
-wxpython = "*"
+pyqt5 = "*"
+pyinstaller = "*"
 
 [requires]
 python_version = "3.7"

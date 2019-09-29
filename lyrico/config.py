@@ -63,7 +63,7 @@ class Config():
 	# This list is used by the 'glob2' module to scan 'source_dir' for audio files.
 	audio_formats = ['mp3', 'flac', 'm4a', 'mp4', 'ogg', 'oga', 'wma']
 
-	lyrics_dir = None
+	lyrics_dir = "PLEX-MODE"
 	source_dir = None
 
 	save_to_file = True
