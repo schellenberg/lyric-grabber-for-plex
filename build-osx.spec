@@ -23,11 +23,19 @@ block_cipher = None
 
 a = Analysis(['lyric-grabber-for-plex.py'],  # replace me with your path
              pathex=['/Users/dan/Documents/GitHub/plex-lyric-grabber/lyric-grabber-for-plex.py'],
+             binaries=[],
+             datas=[],
              hiddenimports=[],
-             hookspath=None,
-             runtime_hooks=None,
+             hookspath=[],
+             runtime_hooks=[],
+             excludes=[],
+             win_no_prefer_redirects=False,
+             win_private_assemblies=False,
+             cipher=block_cipher,
+             noarchive=False
              )
-pyz = PYZ(a.pure)
+pyz = PYZ(a.pure, a.zipped_data,
+             cipher=block_cipher)
 
 options = [('u', None, 'OPTION'), ('v', None, 'OPTION'), ('w', None, 'OPTION')]
 
@@ -37,17 +45,18 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          options,
-          gooey_languages,
-          gooey_images,
+          [],
           name='Lyric Grabber for Plex',
           debug=False,
-          strip=None,
+          bootloader_ignore_signals=False,
+          strip=False,
           upx=True,
+          upx_exclude=[],
+          runtime_tmpdir=None,
           console=False,
           icon=os.path.join(gooey_root, 'images', 'program_icon.ico'))
 
-info_plist = {'addition_prop': 'additional_value'}
+info_plist = {'NSHighResolutionCapable': 'True'}
 app = BUNDLE(exe,
              name='Lyric Grabber for Plex.app',
              bundle_identifier=None,

@@ -1,7 +1,7 @@
 '''
-A simple Gooey example. One required field, one optional.
+Lyric Grabber for Plex
+Made by Dan Schellenberg
 '''
-
 
 from __future__ import print_function
 from __future__ import unicode_literals
