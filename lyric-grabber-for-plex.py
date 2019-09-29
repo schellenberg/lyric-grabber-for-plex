@@ -20,10 +20,6 @@ from lyrico.song import Song
 from lyrico.song_helper import get_song_list
 from lyrico.config import Config
 
-#try to fix buffering input...
-# nonbuffered_stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
-# sys.stdout = nonbuffered_stdout
-
 @Gooey()
 def main():
     parser = GooeyParser(description='Lyric Grabber for Plex')
@@ -60,6 +56,7 @@ def main():
         song_list = [Song(song_path) for song_path in get_song_list(Config.source_dir)]
         print(len(song_list), 'songs detected.')
         print('Metadata extracted for', (str(Song.valid_metadata_count) + '/' + str(len(song_list))), 'songs.')
+        print(" ", flush = True)
         for song in song_list:
             # Only download lyrics if 'title' and 'artist' is present
             # Error str is already present in song.error
@@ -74,21 +71,24 @@ def main():
                 # else use audio file path
                 else:
                     print(song.path, 'was ignored.', song.error)
+            
+            print(" ", flush = True) #avoid output buffering
 
         if create_log:
             print('\nBuilding log...')
             Song.log_results(song_list)
-            print(
-                '{songs} songs, {tagged} tagged, {files} lyric files, {existing} existing, {errors} errors'.format(
-                    songs = len(song_list),
-                    tagged = Song.lyrics_saved_to_tag_count,
-                    files = Song.lyrics_saved_to_file_count,
-                    existing = Song.lyrics_existing_count,
-                    errors = Song.lyrics_errors_count
-                )
-            )
 
-        print('FINISHED')
+        print(
+            '{songs} songs, {tagged} tagged, {files} lyric files, {existing} existing, {errors} errors'.format(
+                songs = len(song_list),
+                tagged = Song.lyrics_saved_to_tag_count,
+                files = Song.lyrics_saved_to_file_count,
+                existing = Song.lyrics_existing_count,
+                errors = Song.lyrics_errors_count
+            )
+        )
+
+        print('FINISHED', flush = True)
 
     else:
         raise Exception("No music directory chosen.")

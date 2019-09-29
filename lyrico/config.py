@@ -215,21 +215,21 @@ class Config():
 			Config.source_dir = path
 		# make directory if user is setting "lyrics_dir" and it does not exists.
 		# Refer http://stackoverflow.com/a/14364249/2426469
-		elif dir_type == 'lyrics_dir':
-			try:
-				os.makedirs(path)
-				print('Directory does not exist. Creating new one.')
-			except OSError:
-				if not os.path.isdir(path):
-					# this exception is handled by function calling set_dir
-					raise
-			Config.lyrics_dir = path
+		# elif dir_type == 'lyrics_dir':
+		# 	try:
+		# 		os.makedirs(path)
+		# 		print('Directory does not exist. Creating new one.')
+		# 	except OSError:
+		# 		if not os.path.isdir(path):
+		# 			# this exception is handled by function calling set_dir
+		# 			raise
+		# 	Config.lyrics_dir = path
 
-		print(dir_type, 'updated.')
+		# print(dir_type, 'updated.')
 		if dir_type == 'source_dir':
-			print('lyrico will scan the following folder for audio files:')
-		else:
-			print('lyrico will save lyrics files in the following folder:')
+			print('Lyric Grabber will scan the following folder for audio files:')
+		# else:
+		# 	print('lyrico will save lyrics files in the following folder:')
 		print('    ', path)
 		return True
 
