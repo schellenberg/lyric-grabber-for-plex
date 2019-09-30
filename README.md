@@ -24,7 +24,7 @@ On a Mac, you may need to right click, then click "Open". This lets you open an 
 Configuring Plex
 =================
 
-Enable "Local Media Assets" in Settings. [Read this support article for full details.](https://support.plex.tv/articles/215916117-adding-local-lyrics/)
+Enable "Local Media Assets" in Settings (under Agents). [Read this support article for full details.](https://support.plex.tv/articles/215916117-adding-local-lyrics/)
 
 
 About
