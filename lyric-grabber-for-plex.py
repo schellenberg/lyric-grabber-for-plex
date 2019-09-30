@@ -46,14 +46,14 @@ def main():
     timeout_group.add_argument(
         'number_of_requests_before_pause',
         metavar='Number of Consecutive Requests',
-        help='How many requests to send before a pause?\n(set to 0 for no pause)',
+        help='How many songs to search for before a pause?\n(set to 0 for no pause)',
         default=100,
         type=int)
 
     timeout_group.add_argument(
         'pause_length',
         metavar='Wait Time',
-        help='How many seconds to wait after the consecutive requests?',
+        help='How many seconds do you want to pause for?',
         default=30,
         type=int)
 
@@ -109,9 +109,12 @@ def main():
                         requests_sent += 1
                         if requests_sent >= args.number_of_requests_before_pause:
                             requests_sent = 0
+                            print()
+                            print("Pausing for " + str(args.pause_length) + " seconds...")
+                            print("", flush = True)
                             time.sleep(args.pause_length)
                     except:
-                        raise Exception("No music directory chosen.")
+                        raise Exception("Uh oh. Something went wrong. Did you choose decent numbers for waiting and pausing?")
                 
         if create_log:
             print('\nBuilding log...')
