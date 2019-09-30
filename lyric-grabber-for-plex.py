@@ -40,7 +40,7 @@ def main():
 
     timeout_group = parser.add_argument_group(
     "Timeout Values", 
-    "These values will allow a pause after a certain number of song lyric requests are sent. This can help avoid hitting the lyric servers with too many requests in a row (which could theoretically lead to your IP being banned)."
+    "These values control a how long to pause after a certain number of song lyric requests are sent. This allows you to avoid hitting the lyric servers with too many requests in a row (which could theoretically lead to your IP address being banned)."
     )
 
     timeout_group.add_argument(
